@@ -61,8 +61,20 @@ button:hover{
     text-decoration: underline;
 }
 
+input[type="text"], 
+input[type="email"], 
+input[type="number"]{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid rgb(190, 188, 188);
+    font-size: 16px;
+    box-sizing: border-box;
+}
 
-
+button[type="submit"]{
+    padding: 15px 40px;
+}
 
 @media only screen and (max-width: 600px) {
     header, footer {

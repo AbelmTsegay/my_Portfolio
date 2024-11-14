@@ -18,4 +18,4 @@ button1.addEventListener("click", function(){
 
 button2.addEventListener("click", function(){
     toggle("project2info");
-});
+}); 
