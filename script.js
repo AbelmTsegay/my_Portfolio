@@ -19,3 +19,12 @@ button1.addEventListener("click", function(){
 button2.addEventListener("click", function(){
     toggle("project2info");
 }); 
+
+const toggleButton = document.getElementById("toggle-theme");
+
+if (localStorage.getItem("theme") === "dark") {
+    document.body.classList.add("dark-mode");
+}
+toggleButton.addEventListener("click", function() {
+    document.body.classList.toggle("dark-mode");
+});
