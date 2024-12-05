@@ -83,6 +83,16 @@ body.dark-mode{
     background-color: rgb(153, 131, 131);
     color: rgb(67, 55, 228);
 }
+.image-container {
+    display: flex;
+    justify-content: center;  
+    align-items: center;    
+}
+img {
+    max-width: 100%;  
+    height: auto;     
+  }
+
 
 @media only screen and (max-width: 600px) {
     header, footer {
