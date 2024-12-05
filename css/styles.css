@@ -45,6 +45,8 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
+    display: none;
+    transition: bottom 0.3s ease-in-out;
 }
 
 nav ul li a:hover {

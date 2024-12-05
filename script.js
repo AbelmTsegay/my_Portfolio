@@ -28,3 +28,12 @@ if (localStorage.getItem("theme") === "dark") {
 toggleButton.addEventListener("click", function() {
     document.body.classList.toggle("dark-mode");
 });
+
+const footer = document.querySelector("footer");
+window.addEventListener("scroll", function() {
+ const footerPosition = footer.offsetTop;
+ const scrollPosition = window.scrollY + window.innerHeight;
+ if (scrollPosition >= footerPosition) {
+    footer.style.display = "block";
+  } 
+});
